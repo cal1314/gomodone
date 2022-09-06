@@ -18,6 +18,6 @@ func SayHi(name ,lang string) (string,error) {
 	case "fr":
 	    return fmt.Sprintf("Bonjour,%s!",name),nil
 	default:
-	    return "",errors.New("unknown language")
+	    return "",errors.New("unknown language!!!")
     }
 }
